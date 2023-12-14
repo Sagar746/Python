@@ -57,7 +57,9 @@
 # print(memo(48,d))
 
 # --------------------------------------------------------------------------
-
+"""
+Concept of decorators is used in memoization , so first understand how decorators works
+"""
 
 # memory = {}
 # def memoize_factorial(f):
@@ -79,3 +81,4 @@
 
 # print(factorial(5))
 # print(factorial(5))
+
