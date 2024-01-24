@@ -1,23 +1,26 @@
 from abc import ABC, abstractmethod
 
 
-class Polygon(ABC):
+class BankApp(ABC):
+    def database(self):
+        print('Connected to database')
 
     @abstractmethod
-    def noofsides(self):
+    def security(self):
         pass
 
 
-class Triangle(Polygon):
-    
-    def noofsides(self):
-        print('I have 3 sides')
+class MobileApp(BankApp):
+    '''
+    object will not run until you, implement abstract security method.
+    '''
+    def mobile_login(self):
+        print('Login into Mobile')
+
+    def security(self):
+        print('Mobile Security')
 
 
-class Pentagon(Polygon):
-    def noofsides(self):
-        print('I have 5 sides')
-
-
-R = Triangle()
-R.noofsides()
+mob = MobileApp()
+mob.mobile_login()
+mob.security()
