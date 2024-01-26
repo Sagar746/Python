@@ -5,7 +5,8 @@ Subprocess is a task of running or executing other programs in Python by creatin
 
 '''
 # --------------------------------------------------------------------------
-# call() used to run an external command without disturbing it
+# subprocess.call() is useful when you want to run a command and check the return code,
+# but do not need to capture the output.And it run the command in seperate process and wait for it to complete.
 # shell is a boolean value, if it is true then program executes in new shell
 
 # subprocess.call(['ls','-l'], shell=True)
