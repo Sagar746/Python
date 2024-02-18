@@ -1,3 +1,5 @@
+import argparse
+
 # print('sagar','tiwari', sep='-', end='\n')
 
 # x,y,z = input('enter a value: ').split()
@@ -8,7 +10,7 @@
 # print('list of the students: ', x)
 
 
-import argparse
+
 
 # print(argparse.__file__)
 
