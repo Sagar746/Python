@@ -7,7 +7,7 @@
 ### *Download Latest Version of Python*
 
 ```
-<a href="__blank">https://www.python.org/downloads/ </a>
+[Download Python] (https://www.python.org/downloads/)
 ```
 #### First Python Program
 ``` python
