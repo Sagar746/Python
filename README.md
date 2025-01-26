@@ -7,7 +7,7 @@
 ### *Download Latest Version of Python*
 
 ```
-[Download Python] (https://www.python.org/downloads/)
+https://www.python.org/downloads/
 ```
 #### First Python Program
 ``` python
