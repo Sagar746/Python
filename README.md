@@ -9,6 +9,12 @@
 ```
 https://www.python.org/downloads/
 ```
+
+```python
+pip3 install python3
+```
+
+
 #### First Python Program
 ``` python
 print('Hello World')
