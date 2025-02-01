@@ -9,7 +9,9 @@
 ```
 https://www.python.org/downloads/
 ```
-
+<details>
+  <summary>Install python through terminal</summary>
+</details>
 ```python
 pip3 install python3
 ```
